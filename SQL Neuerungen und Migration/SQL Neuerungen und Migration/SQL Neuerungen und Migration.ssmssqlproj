@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Neuerungen und Migration">
+  <Items>
+    <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01_Virtualisierung.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>01_Virtualisierung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_Setup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>02_Setup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03a_ADR_SETUP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03a_ADR_SETUP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03b_ADR_Fill1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03b_ADR_Fill1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03b_ADR_Fill2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03b_ADR_Fill2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_MAXDOP.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>04_MAXDOP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_AlwaysEnc.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>05_AlwaysEnc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_Ledger.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>06_Ledger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_TemporalTables_1_Aktivieren.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>06_TemporalTables_1_Aktivieren.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_TemporalTables_2_Demo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>06_TemporalTables_2_Demo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07_Columnstore_realtime_inMemory.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>07_Columnstore_realtime_inMemory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="07_Seitenprobleme.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>07_Seitenprobleme.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10_Columnstore.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>10_Columnstore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10_IX_Online_Pause_Resume.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>10_IX_Online_Pause_Resume.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_Snapshot.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>11_Snapshot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="apply-in-memory-oltp.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>apply-in-memory-oltp.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_1_DB_enlarge.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_1_DB_enlarge.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_1_WWI_ExplodingTables.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_1_WWI_ExplodingTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_2_Count_Distinct.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_2_Count_Distinct.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_3_Batch_Mode_Adaptive_Join.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_3_Batch_Mode_Adaptive_Join.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_4_Memory_Grant.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_4_Memory_Grant.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_5_BatchMode_Rowstore.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_5_BatchMode_Rowstore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_6_Interleave.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_6_Interleave.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_7_UDF.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_7_UDF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="IQP_8_Table_Variable.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IQP_8_Table_Variable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Sec_1_RowLevelSec.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Sec_1_RowLevelSec.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Sec_2_Dynamic Data Masking.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Sec_2_Dynamic Data Masking.sql</FullPath>
+        </FileNode>
+        <FileNode Name="setup-or-reset-demo.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>setup-or-reset-demo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_help_Revlogin.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_help_Revlogin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TSQL_DateBucket_GenerateSeries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TSQL_DateBucket_GenerateSeries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TSQL_Graph_Shortest.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TSQL_Graph_Shortest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TSQL_Greatest.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TSQL_Greatest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TSQL_QueryStore_Hints.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TSQL_QueryStore_Hints.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TSQL_Snapshotisolation.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TSQL_Snapshotisolation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TSQL_STRING_AGG_SPLIT.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TSQL_STRING_AGG_SPLIT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TSQL_Window.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TSQL_Window.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Database_SnapshotBackup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_Database_SnapshotBackup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Filetable Filestream Semantic.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_Filetable Filestream Semantic.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_instnwnd.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_instnwnd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_KU_Tabelle.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_KU_Tabelle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_Lösungen.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_Lösungen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_RecoveryModel.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_RecoveryModel.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_sp_help_revlogin.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_sp_help_revlogin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_spieltabelle.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_spieltabelle.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_SQL Server 2022 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_SQL Server 2022 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_VLF_ActiveVLFs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_VLF_ActiveVLFs.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Sonstiges" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="IM">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>IM</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Neuerungen und Migration.ssmssqlproj">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQL Neuerungen und Migration.ssmssqlproj</FullPath>
+        </FileNode>
+        <FileNode Name="SQLPOL (1).zip">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLPOL (1).zip</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
