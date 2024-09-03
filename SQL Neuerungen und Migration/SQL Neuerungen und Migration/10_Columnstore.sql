@@ -1,5 +1,18 @@
 Columnstore
 
+--exterm hohe KOmpression
+--Sehr nützlich bei Archivdaten 
+--neue Datensätze oder geänderte werden allerdings
+--in unsortierte Heaps abgelegt...Da hier zunächst 
+--nur unkomprimierte Daten sind, die mit einem Scan durchsucht werden müssen
+--werden ABfragen, die ganu aif diese Daten losgehen
+--"leider müssen"
+
+--Jeder NOn CL oder CL IX ist immer aktuell. Der CS IX nicht
+
+
+
+
 set statistics io, time on
 
 
