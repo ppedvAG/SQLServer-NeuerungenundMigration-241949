@@ -7,7 +7,13 @@ GO
 ALTER DATABASE [ztrrtz] SET ALLOW_SNAPSHOT_ISOLATION ON
 GO
 
---Achtung Tempdb.. aber schreiben hindert das Lesen nicht und lesen hindert das schreiben nicht
-Zeile (70% einer Seite )
-Seite (6 von 8 )
-Block
+--Achtung Tempdb.. 
+--aber Schreiben hindert das Lesen nicht 
+--und lesen hindert das schreiben nicht
+
+--Die Anwndung bekommt diese Änderung nicht mit...
+
+--DS werden vor Änderung in die Tempdb kopiert und dort versioniert..
+--Abfragen an sich gerade ändernde DS werden auf die Version in der tempdb verwiesen
+
+

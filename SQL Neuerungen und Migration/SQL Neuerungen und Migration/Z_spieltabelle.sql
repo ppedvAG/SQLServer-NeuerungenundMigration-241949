@@ -13,5 +13,34 @@ insert into ku
 select * from ku
 go 9
 
+
+
 alter table ku add id int identity
+
+set statistics io, time on
+
+select * from ku where id = 10
+
+dbcc showcontig('ku') --41000  56000  
+
+select 15000*8
+
+select * from sys.dm_db_index_physical_stats(db_id(), object_id('ku'), NULL, NULL, 'detailed')
+
+
+
+--IO reduzieren!!!!!
+
+
+select * into ku2 from ku
+
+
+set statistics io, time on
+
+select companyname, sum(freight)
+from ku2
+where country = 'UK'
+group by companyname
+
+
 

@@ -2,6 +2,13 @@
 
 MAXDOP 
 
+Kostenschwellenwert:
+5 SQL Dollar ist extrem gering
+25 bei Datawarehouse
+50 bei OLTP (Shopsysteme)
+
+
+
 Abfragen können eine oder mehr CPUs verwenden
 
 Wird eine Abfrage schneller fertig sein, wenn mehr CPUs sie verarbeiten?
@@ -10,12 +17,13 @@ Normalerweise schon .. macht Sinn!
 SQL verwendet allerdings keine variable Anzah an Kernen. (Erst SQL 2022 ist dazu lernfähig)
 SQL verwendet 1 oder alle Kerne bzw das was in MAXDOP angegeben ist.
 
-Seit SQL 2016: Standardwert statt 0 nun Anzagh der Kerne , aber max 8
+Seit SQL 2016: Standardwert statt 0 nun Anzahl der Kerne , aber max 8
 
 
 
 */
 
+select * from sysdatabases
 
 set statistics io, time on
 --IO = Anzahl der Seiten--> 1:1 RAM

@@ -1,5 +1,5 @@
 
-USE OldStyle;
+USE Newstyle
 
 
 --Test2
@@ -14,7 +14,7 @@ GO
 Begin tran
 
 declare @i as int= 1
-while @i< 500000
+while @i< 200000
 	begin
 		insert into test1 
 		select @i,'XY', @i, GETDATE()
@@ -26,6 +26,9 @@ update test1 set nummer = 100000, Datum= GETDATE()
 delete from test1
 
 rollback
+
+
+
 
 
 
