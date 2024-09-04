@@ -12,6 +12,8 @@
 --zusammen mit dem Stammhash des vorherigen Blocks 
 --als Eingabe für die Hashfunktion mit SHA-256 gehasht. 
 
+--und jetz alle mit eigenen Worten wiederholen
+
 
 --Durch diesen Hashvorgang wird eine Blockchain gebildet.
 
@@ -32,6 +34,8 @@ BEGIN CATCH
 END CATCH
 
 
+drop table if exists KeyCardEvents;
+GO
 
 CREATE TABLE dbo.[KeyCardEvents]
    (
@@ -69,6 +73,9 @@ SELECT
  ORDER BY t.commit_time DESC;
 
 ---Aktualisierbar
+
+drop table if exists balance;
+GO
 
 CREATE TABLE dbo.[Balance]
 (
@@ -139,8 +146,11 @@ SELECT
  , l.[LastName]
  , l.[FirstName]
  , l.[Balance]
- , l.[ledger_operation_type_desc] AS Operation
+ , l.[ledger_operation_type_desc] AS Operation,l.ledger_transaction_id, l.ledger_sequence_number
  FROM dbo.[Balance_Ledger] l
  JOIN sys.database_ledger_transactions t
  ON t.transaction_id = l.ledger_transaction_id
  ORDER BY t.commit_time DESC;
+
+ 
+
