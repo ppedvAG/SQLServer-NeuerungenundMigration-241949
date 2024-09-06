@@ -12,7 +12,21 @@
 --zusammen mit dem Stammhash des vorherigen Blocks 
 --als Eingabe für die Hashfunktion mit SHA-256 gehasht. 
 
---und jetz alle mit eigenen Worten wiederholen
+
+
+
+
+
+
+
+
+
+
+
+--und jetzt alle mit eigenen Worten wiederholen
+
+
+
 
 
 --Durch diesen Hashvorgang wird eine Blockchain gebildet.

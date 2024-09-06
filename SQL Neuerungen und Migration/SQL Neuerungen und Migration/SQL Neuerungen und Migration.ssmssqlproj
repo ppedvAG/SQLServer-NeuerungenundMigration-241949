@@ -2,7 +2,38 @@
 <SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Neuerungen und Migration">
   <Items>
     <LogicalFolder Name="Verbindungen" Type="2" Sorted="true">
-      <Items />
+      <Items>
+        <ConnectionNode Name="127.0.0.1:BIGBEN\Administrator">
+          <Created>2024-09-05T09:11:44.1989062+02:00</Created>
+          <Type>SQL</Type>
+          <Server>127.0.0.1</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="BIGBEN:BIGBEN\Administrator">
+          <Created>2024-09-05T12:28:26.149734+02:00</Created>
+          <Type>SQL</Type>
+          <Server>BIGBEN</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB>Northwind</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>False</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
       <Items>
@@ -17,6 +48,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>02_Setup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_Snapshotisolation.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03_Snapshotisolation.sql</FullPath>
         </FileNode>
         <FileNode Name="03a_ADR_SETUP.sql">
           <AssociatedConnectionMoniker />
@@ -43,32 +80,38 @@
           <FullPath>04_MAXDOP.sql</FullPath>
         </FileNode>
         <FileNode Name="05_AlwaysEnc.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:127.0.0.1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>127.0.0.1</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>05_AlwaysEnc.sql</FullPath>
         </FileNode>
+        <FileNode Name="05_AlwaysEnc_Test.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:127.0.0.1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>127.0.0.1</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05_AlwaysEnc_Test.sql</FullPath>
+        </FileNode>
         <FileNode Name="06_Ledger.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:127.0.0.1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>127.0.0.1</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>06_Ledger.sql</FullPath>
         </FileNode>
         <FileNode Name="06_TemporalTables_1_Aktivieren.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:127.0.0.1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>127.0.0.1</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>06_TemporalTables_1_Aktivieren.sql</FullPath>
         </FileNode>
         <FileNode Name="06_TemporalTables_2_Demo.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:127.0.0.1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>127.0.0.1</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>06_TemporalTables_2_Demo.sql</FullPath>
         </FileNode>
         <FileNode Name="07_Columnstore_realtime_inMemory.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:127.0.0.1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>127.0.0.1</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>07_Columnstore_realtime_inMemory.sql</FullPath>
         </FileNode>
@@ -121,26 +164,26 @@
           <FullPath>IQP_2_Count_Distinct.sql</FullPath>
         </FileNode>
         <FileNode Name="IQP_3_Batch_Mode_Adaptive_Join.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>IQP_3_Batch_Mode_Adaptive_Join.sql</FullPath>
         </FileNode>
         <FileNode Name="IQP_4_Memory_Grant.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>IQP_4_Memory_Grant.sql</FullPath>
         </FileNode>
         <FileNode Name="IQP_5_BatchMode_Rowstore.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>IQP_5_BatchMode_Rowstore.sql</FullPath>
         </FileNode>
         <FileNode Name="IQP_6_Interleave.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>IQP_6_Interleave.sql</FullPath>
         </FileNode>
@@ -151,20 +194,20 @@
           <FullPath>IQP_7_UDF.sql</FullPath>
         </FileNode>
         <FileNode Name="IQP_8_Table_Variable.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>IQP_8_Table_Variable.sql</FullPath>
         </FileNode>
         <FileNode Name="Sec_1_RowLevelSec.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Sec_1_RowLevelSec.sql</FullPath>
         </FileNode>
         <FileNode Name="Sec_2_Dynamic Data Masking.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Sec_2_Dynamic Data Masking.sql</FullPath>
         </FileNode>
@@ -187,8 +230,8 @@
           <FullPath>TSQL_DateBucket_GenerateSeries.sql</FullPath>
         </FileNode>
         <FileNode Name="TSQL_Graph_Shortest.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>TSQL_Graph_Shortest.sql</FullPath>
         </FileNode>
@@ -271,8 +314,8 @@
           <FullPath>Z_spieltabelle.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_SQL Server 2022 Diagnostic Information Queries.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:127.0.0.1:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>127.0.0.1</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Z_SQL Server 2022 Diagnostic Information Queries.sql</FullPath>
         </FileNode>
@@ -297,6 +340,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQL Neuerungen und Migration.ssmssqlproj</FullPath>
+        </FileNode>
+        <FileNode Name="SQLPerfmonVorlage_ColStore.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLPerfmonVorlage_ColStore.xml</FullPath>
         </FileNode>
         <FileNode Name="SQLPOL (1).zip">
           <AssociatedConnectionMoniker />

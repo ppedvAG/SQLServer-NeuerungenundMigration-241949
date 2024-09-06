@@ -65,7 +65,7 @@ SET (SYSTEM_VERSIONING = ON (HISTORY_TABLE = dbo.demo3history, DATA_CONSISTENCY_
 
 
 Alter Table contacts 
-set (system_versioning=off)
+set (system_versioning=on)
 
 drop table contacts
 
